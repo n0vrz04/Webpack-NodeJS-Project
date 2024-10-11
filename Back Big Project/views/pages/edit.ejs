@@ -1,0 +1,27 @@
+<%- include(rootPath + '/views/layout/header.ejs') %>
+
+<div class="container mt-5" style="width: 800px;">
+
+
+  <form id="contact" action="/edit/detail/<%= menu.id %>" method="post" class="border p-4 shadow-sm rounded">
+    <h3 class="text-center mb-5">Edit Coffee</h3>
+    <div class="form-group">
+      <input placeholder="Full Name" type="text" name="fullname" value="<%= menu.fullname %>" class="form-control mb-3" required />
+    </div>
+    <div class="form-group mb-3 ">
+      <input type="text" placeholder="Type Role" tabindex="5" required name="priceSmall" class="form-control" value="<%= menu.priceSmall %>" />
+    </div>
+    <div class="form-group mb-3 ">
+      <input type="text" placeholder="Type Role" tabindex="5" required name="priceBig" class="form-control" value="<%= menu.priceBig %>" />
+    </div>
+    <div class="form-group  mb-3">
+      <input placeholder="img..." type="text" tabindex="3" required name="img" class="form-control"  value="<%= menu.img %>"/>
+    </div>
+    <div class="form-group text-center  mb-3">
+      <button name="submit" type="submit" id="contact-submit" class="btn btn-secondary w-100 btn-block mt-3">Edit</button>
+    </div>
+  </form>   
+
+</div>
+
+<%- include(rootPath + '/views/layout/footer.ejs') %>

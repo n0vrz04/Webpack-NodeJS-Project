@@ -1,0 +1,32 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "fullname": "Hot Cappuccino",
+      "priceSmall": 8.5,
+      "priceBig": 10.5,
+      "img": "assets/img/menu-item-1.jpg"
+    },
+    {
+      "id": "2",
+      "fullname": "Hot Americano",
+      "priceSmall": 9.5,
+      "priceBig": 12.5,
+      "img": "assets/img/menu-item-2.jpg"
+    },
+    {
+      "id": "3",
+      "fullname": "Hot Latte",
+      "priceSmall": 11.75,
+      "priceBig": 14.75,
+      "img": "assets/img/menu-item-3.jpg"
+    },
+    {
+      "id": "4",
+      "fullname": "Nescafe",
+      "priceSmall": "1.00",
+      "priceBig": "2.00",
+      "img": "assets/img/menu-item-5.jpg"
+    }
+  ]
+}
